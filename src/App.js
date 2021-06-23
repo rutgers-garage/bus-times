@@ -36,6 +36,7 @@ function App() {
       busApi()
       console.log(busData)
   }, 5 * 1000)
+  
   }
 
   return busData ? (<div><BusTimes /></div>) : <h1>:(</h1>
